@@ -1,0 +1,155 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background: #292828;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.Papa {
+    width: 90%;
+    /* margin: auto; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.Bot-Image {
+    height: 490px;
+    width: 32%;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+
+.Bot-Image img {
+    width: 355px;
+    height: 485px;
+}
+
+.chat-container {
+    width: 70%;
+    margin: auto;
+    background: #1c1a1a   ;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 10px;
+    /* text-align: center; */
+}
+
+.chat-container h1 {
+    font-size: 1.5em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.2;
+    color: #fff;
+    margin: 0PX 0 10PX 5px;
+    text-align: center;
+}
+
+.chat-box {
+    height: 355px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    background-color:#4d4949;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.input-container {
+    display: flex;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    outline: none;
+}
+
+button {
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 200px;
+    margin: 5px 0px 5px 10px;
+    width: 35px;
+    height: 35px;
+}
+
+button:hover {
+    background: #0056b3;
+    transition: 0.5s;
+}
+
+
+/* Style général du chat */
+.chat-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 420px;
+    overflow-y: auto;
+    padding: 10px;
+}
+
+/* Style des messages de l'utilisateur */
+.message.user {
+    align-self: flex-end;
+    background-color: rgb(93, 97, 93); /* GRAY */
+    color: white;
+    padding: 10px 15px;
+    border-radius: 15px 15px 0px 15px;
+    max-width: 70%;
+    word-wrap: break-word;
+    font-size: 14px;
+
+}
+
+/* Style des messages du bot */
+.message.bot {
+    align-self: flex-start;
+    background-color: rgb(42, 46, 42); /* Bleu */
+    color: white;
+    padding: 10px 15px;
+    border-radius: 15px 15px 15px 0px;
+    max-width: 70%;
+    word-wrap: break-word;
+    font-size: 14px;
+}
+
+/* Effet d'apparition progressive (facultatif) */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(5px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.message {
+    animation: fadeIn 0.3s ease-in-out;
+} */
+
+
+
+
+
+
+

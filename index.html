@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot de Recettes & Nutrition</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <section class="Papa">
+
+        <div class="Bot-Image">
+            <img src="Images/BOT.avif" alt="Image représentant le bot conseiller en cuisine">
+        </div>
+        <form class="chat-container">
+            <h1>Hi, je suis CuistoBot, Comment puis je t'aider ?</h1>
+            <div class="chat-box" id="chat-box"></div>
+            <div class="input-container">
+                <input type="text" id="user-input" placeholder="Entrez votre question ici..." required>
+                <button onclick="sendMessage()"><i class="fa-solid fa-arrow-up"></i></button>
+            </div>
+        </form>
+        
+    </section>
+
+    <script src="script.js"></script>
+
+
+
+</body>
+
+</html>
